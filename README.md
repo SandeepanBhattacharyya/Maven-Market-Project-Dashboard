@@ -8,7 +8,7 @@ To highlight my expertise in Power BI and data analytics, I utilized the Maven M
 
 This project underscores my abilities in data storytelling, applying DAX formulas, and creating dynamic reports.
 
-[View Project Report]()
+[View Project Report](https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/MavenMarket_Report.pdf)
 
 ## Technologies Used
 
@@ -95,7 +95,7 @@ Fact Tables: Contain transactional data.
 
 ## Data Modeling
 Data modeling is the foundation of any report, directly impacting its performance. In this project, we used the below snowflake schema for data modeling
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Data%20Model.png" class="center">
 
 - In the Customers table, categorized "customer_city" as City, "customer_postal_code" as Postal Code, and "customer_country" as Country/Region.
 - In the Stores table, categorized "store_city" as City, "store_state" as State, "store_country" as Country/Region, and "full_address" as Address.
@@ -103,55 +103,59 @@ Data modeling is the foundation of any report, directly impacting its performanc
 ## Calculated Columns and Important DAX Measures.
 
 ### Highlighted important Calculates Columns and DAX Measures created. 
-<img> all dax
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/all_m1.png" class="center">
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/all_m2.png" class="center">
 
 - In the Products table, added a column named "Price_Tier" Equals "High" if the retail price is >$3, "Mid" if the retail price is >$1, and "Low" otherwise.
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/price_tier.png" class="center">
 
 - In the Stores table, added a column named "Years_Since_Remodel". It Calculates the number of years between the current date (TODAY()) and the last remodel date
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Years_Since_Remodel.png" class="center">
 
 - Created new measures named "All Transactions" and "All Returns" to calculate grand total transactions and returns (regardless of filter context). We observe 269,720 transactions and 7,087 returns across all rows (test with product_brand on rows)
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/All%20Transactions.png" class="center">
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/All%20Returns.png" class="center">
 
 - Created new measures to calculate "Total Revenue" based on transaction quantity and product retail price, and format as $. We have an iterator function.
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Total%20Revenue.png" class="center">
 
 - Created a new measure named "YTD Revenue" to calculate year-to-date total revenue, and format as $
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/YTD%20Revenue.png" class="center">
 
 - Created a new measure named "60-Day Revenue" to calculate a running revenue total over a 60-day period, and format as $
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/60-Day%20Revenue.png" class="center">
 
 - Create new measures named  "Last Month Transactions" to compare the total transations month by month.
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Last%20Month%20Transactions.png" class="center">
 
-### matrix
-<img>
+### MATRIX
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/matrix.png" class="center">
 
 - Created a new measure named "Revenue Target" based on a 5% lift over the previous month revenue, and format as $
 
-<img>
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Revenue%20Target.png" class="center">
 
 
 ## Dashboard Design:
 
 ### 1. Topline Performance
 
-<img src="https://github.com/SandeepanBhattacharyya/Adventure_Works_Project/blob/main/Exec_Dashboard_View.png" class="center">
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Topline%20Performance.png" class="center">
 
 ### 2. Key Insights
 
-<img src="https://github.com/SandeepanBhattacharyya/Adventure_Works_Project/blob/main/Map_View.png" class="center">
+<img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Key%20Insights.png" class="center">
 
 
-Access the Full Report: [Report](https://github.com/SandeepanBhattacharyya/Adventure_Works_Project/blob/main/Adventure_Works_Project_report.pdf)
+Access the Full Report: [Report](https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/MavenMarket_Report.pdf)
 
 ### Project Outcome
+
+This project highlights my expertise in using Power BI to develop insightful and interactive dashboards that support data-driven decision-making. By applying diverse data visualization methods and DAX calculations, I have delivered a thorough analysis of Maven Market's performance, demonstrating the effectiveness of data visualization in gaining insights and optimizing business operations.
