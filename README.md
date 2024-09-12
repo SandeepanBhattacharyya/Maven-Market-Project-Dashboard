@@ -154,7 +154,7 @@ Data modeling is the foundation of any report, directly impacting its performanc
 <img src="https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/Key%20Insights.png" class="center">
 
 
-Access the Full Report: [Report](https://github.com/SandeepanBhattacharyya/Maven-Market-Project-Dashboard/blob/main/MavenMarket_Report.pdf)
+Access the Full Report: [Report](https://project.novypro.com/0LkBNn)
 
 ### Project Outcome
 
